@@ -1,0 +1,57 @@
+body{
+	background-color: #e6e9e7;
+}
+
+header{
+	background-color: #1d1d19;
+	overflow: hidden;
+	color: white
+}
+header #configuraciones{
+	float: right;
+}
+
+header #titulo h1{
+	float: left;
+	margin: 0;
+}
+
+#info_user figure, #names_user{
+	margin: 0.5em 0 0.5em 0;
+	text-align: center;
+}
+
+#info_user figure img{
+	border: solid 3px white;
+	width: 150px;
+
+}
+
+
+#info_user #names_user strong{
+	font-size: 1.5em;
+}
+
+#info_user #names_user p{
+	font-size: 1.2em;
+	margin: 0.2em 0 0.4em 0;
+}
+
+#info_user #contact_user{
+	margin: 0 0 0.5em 1em;
+}
+
+#info_user #contact_user a{
+	color: #24b7e9;
+	text-decoration: none;
+	display: block;
+
+}
+
+#info_user #contact_user a:hover{
+	color: #e94fb8;
+}
+
+#info_user #location_user{
+	display: block;
+}
